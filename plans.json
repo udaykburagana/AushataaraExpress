@@ -1,0 +1,38 @@
+{
+    "plans": [
+    { "id":1, "title": "Yearly","visits":25},
+    { "id":2, "title": "Halfyearly","visits":9},
+    { "id":3, "title": "Quaterly","visits":4}
+  ],
+  "costChart": [{
+    "id":1,
+    "name": "infant",
+    "lower" : 0,
+    "upper" : 1,
+    "cost": 100
+},{
+    "id":2,
+    "name": "toddler",
+    "lower" : 1,
+    "upper" : 3,
+    "cost" : 500
+},{
+    "id":3,
+    "name": "child",
+    "lower" : 3,
+    "upper" : 12,
+    "cost": 2000
+},{
+    "id":4,
+    "name": "teen",
+    "lower" : 13,
+    "upper" : 18,
+    "cost": 3000
+},{
+    "id":1,
+    "name": "Adult",
+    "lower" : 19,
+    "upper" : 60,
+    "cost": 5000
+}]
+}
